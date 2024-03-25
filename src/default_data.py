@@ -19,10 +19,10 @@ default_intents = [
         ('what are you doing', 'user asks robot what its doing'),
         ('User gave', 'user means that he gave the requested item to the robot'),
     ]
-i
+
 default_tasks = [
         ('call', None, None),
-        ('idle_tasker', None, None),
+        ('idle_tasker', 'idle_tasker', None),
         ('bring_goods_new_tasker', 'bring goods', 'going to keeper to ask for goods that master requested. after recieving the goods return back to master with goods.'),
         ('stop', 'stop', None),
         ('bring_jar_tasker', 'bring jar', None),
